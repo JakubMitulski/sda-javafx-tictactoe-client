@@ -7,12 +7,12 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.VBox?>
-<BorderPane fx:controller="pl.sda.poznan.controller.Controller"
+<BorderPane fx:controller="pl.sda.poznan.controller.MainWindowController"
             xmlns:fx="http://javafx.com/fxml">
     <top>
         <MenuBar>
             <Menu text="Game">
-                <MenuItem text="New game" onAction="#connectToServer"/>
+                <MenuItem text="New game" onAction="#connectToServerAction"/>
                 <SeparatorMenuItem/>
                 <MenuItem text="Exit"/>
             </Menu>
